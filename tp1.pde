@@ -110,7 +110,6 @@ void mousePressed() {
   background(235);
 
   //Mostrar dibujo al presionar el click
-
   fill(0);
   rect(0, 0, 800, 35);
   rect(0, 35, 70, 400);
@@ -119,6 +118,7 @@ void mousePressed() {
 
   rect(399, 0, 2, 400);
 }
+
 //Cuadrado negro tapa dibujo al soltar el click
 void mouseReleased() {
   fill(0);
