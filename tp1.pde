@@ -14,7 +14,7 @@ void setup() {
   // Separador foto/dibujo
   rect(399, 0, 2, 400);
 
-  textSize(12);
+  textSize(14);
   fill(255);
   text ("Haz Click!", 540, 25);
 
