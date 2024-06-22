@@ -27,7 +27,7 @@ void Patron() {
       fill(0);
       rect(398 + patternX, 20 + patternY, 19, 19); // Tamaño original
 
-      // Dibujar círculo 2
+      // Dibujar círculo 2 y aumentar escala según ubicación del puntero
       fill(0);
       if (aplicarZoom) {
         circle(428 + patternX, 30 + patternY, 19 * zoomScale);
@@ -35,7 +35,7 @@ void Patron() {
         circle(428 + patternX, 30 + patternY, 19);
       }
 
-      //Dibujar círculo 1
+      //Dibujar círculo 1 y ajustar dinamicamente segun la distancia del mouse
       if (dist <= zoomRadius && aplicarZoom) {
         circle(408 + patternX, 10 + patternY, 19 * maxZoomScale);
       } else {
