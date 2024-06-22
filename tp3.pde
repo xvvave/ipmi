@@ -1,3 +1,7 @@
+//LINK A YOUTUBE: https://youtu.be/y82KIkBTZoA
+//Lautaro Romero Temperini - Nro de Legajo: 95526/6 
+//Comision 3 - Prof David Bedoian
+
 // Declaración de variables
 PImage Referencia;
 int zoomRadius = 15; // Radio para el efecto de zoom
